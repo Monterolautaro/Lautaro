@@ -1,0 +1,118 @@
+.principal{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    width: 70em;
+    margin: auto;
+    gap: 1em;
+}
+
+#titulo{
+    padding: 1em 0em 1em 0em;
+    font-size: 2.3em;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+#imgem{
+    display: flex;
+    justify-content: center;
+}
+
+#uno{ 
+   font-style: italic;
+   font-weight: 700;
+}
+
+#dos{
+    color: rgb(92, 144, 144);
+}
+
+
+#analisis{
+    font-size: 2em;
+    padding: 1em 0em 1em 0em;
+    display: flex;
+    justify-content: center;
+}
+
+.p1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ol{
+    padding: 1em 0em 1em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul{
+    padding: 1em 0em 1em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenes{
+width: 70em;
+margin: auto;
+padding: 2em 3em 2em 3em;
+}
+
+.camporas{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+#mateo{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+#federico{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+#benjamin{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+#comparaciones{
+    font-size: 2em;
+    padding: 0em 0em 1em 0em;
+}
+
+#footid{
+    color: blue;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(225, 225, 199);
+    width: 50%;
+    margin: auto;
+}
+
+.footer{
+    padding: 0em 0em 8em 0em;
+}
+
+#a1 :hover{
+    background-position: 2em;
+}

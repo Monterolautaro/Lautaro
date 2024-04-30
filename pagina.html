@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="reset.css">
         <title>Emprendedores neuquinos</title>
     </head>
-    <body>
-        <div>
-         <h1>Emprendedores neuquinos</h1>
+    <body class="principal">
+        <div class="div1">
+         <h1 id="titulo">Emprendedores neuquinos</h1>
+         <section id="imgem">
          <img src="emprendedores.jpg" alt="Google">
+        </section>
          <p>En este apartado veremos por que Neuquen es la provincia que mas emprendedores per capita tiene Argentina, ademas de un listado y una breve biografia de cada uno de ellos.</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore suscipit nostrum omnis amet doloremque hic! Ipsum, aut, ex vitae dolor, deleniti necessitatibus qui eos similique reprehenderit impedit eaque! Ratione.</p>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore consequatur amet quo ut, obcaecati ipsum totam nesciunt officia rem vero voluptatibus ea excepturi, animi unde officiis doloribus possimus vitae nam.</p>
@@ -14,38 +18,38 @@
         <hr>
     <main>
             <section>
-        <div> 
-            <p>La lista de los mejores emprendedores, es la siguiente:</p>
-            <ol>
+        <div class="p1"> 
+            <p id="uno">La lista de los mejores emprendedores, es la siguiente:</p>
+            <ol id="ol">
                 <li>Los campora</li>
                 <li>Mateo campora</li>
                 <li>Federico balboa bustamante</li>
                 <li>Benjamin esteban fuentes salazar</li>
             </ol>
-            <p>En esta enumeracion ordenamos por jerarquia de ingresos brutos, a los emprendedores en cuestion</p>
+            <p id="dos">En esta enumeracion ordenamos por jerarquia de ingresos brutos, a los emprendedores en cuestion</p>
         </div>
             </section>
         <hr>
             
         <div>
             <section>
-            <h2>Analisis de cada emprendedor</h2>
-            <p>Se analizaran a estos emprendedores teniendo en cuenta:</p>
-            <ul>
-                <li>Tiempo en el mercado</li>
-                <li>Edad en la que emprendieron</li>
-                <li>Desempeño en su primer año</li>
-                <li>Ingresos brutos anualizados</li>
+            <h2 id="analisis">Analisis de cada emprendedor</h2>
+            <p id="p2">Se analizaran a estos emprendedores teniendo en cuenta:</p>
+            <ul class="ul">
+                <li>1 - Tiempo en el mercado</li>
+                <li>2 - Edad en la que emprendieron</li>
+                <li>3 - Desempeño en su primer año</li>
+                <li>4 - Ingresos brutos anualizados</li>
             </ul>
             <span>De modo que se pueda obtener un analisis comparativo y poder definir quien es el mejor de ellos, sin fijarnos simplemente en sus ingresos brutos anuales. </span>
             </section>
         </div>
             
-        <div>
+        <div class="imagenes">
             <section>
                 <article>
-                <h3>Los campora</h3>
-                <img src="los campora.jpeg" alt="Google">
+                <h3 class="camporas">Los campora</h3>
+                <img id="los" src="los campora.jpeg">
                 <p>Los primeros emprendedores a analizar van a ser los campora, quienes Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate perferendis, nisi amet tempora impedit alias voluptate corporis repellendus quam sint illo iusto ducimus voluptatem aperiam? Suscipit sapiente iure illo accusantium.</p>
                 <table>
                     <tr>
@@ -64,8 +68,8 @@
                 </article>
 
                 <article>
-                <h3>Mateo Campora</h3>
-                <img src="mateo campora.jpg" alt="import">
+                <h3 id="mateo">Mateo Campora</h3>
+                <img id="img3" src="mateo campora.jpg" alt="import">
                 <p>Este emprendedor, si bien es un integrante de la familia campora, no siguio con la empresa familiar; Creo la suya.</p>
                 <table>
                     <tr>
@@ -83,8 +87,8 @@
                 </article>
 
                 <article>
-                <h3>Federico Balboa Bustamante</h3>
-                <img src="download.jpg">
+                <h3 id="federico">Federico Balboa Bustamante</h3>
+                <img id="img4" src="download.jpg">
                 <p>De la nada al exito. Un emprendedor que nacio de una familia indigente, en donde paso muchas desgracias, pero gracias a sus esfuerzos y la meritocracia, ahora se encuentra en el ranking de los hombres mas ricos de Argentina </p>
                 <table>
                     <tr>
@@ -102,8 +106,8 @@
                 </article>
 
                 <article>
-                <h3>Benjamin esteban fuentes salazar</h3>
-                <img src="benjamin fuentes.jpg" alt="">
+                <h3 id="benjamin">Benjamin esteban fuentes salazar</h3>
+                <img id="img5" src="benjamin fuentes.jpg" alt="">
                 <p>Dejó su trabajo, estudios, y a todos para dedicarse a la dificil tarea de emprender</p>
                 <table>
                     <tr>
@@ -125,7 +129,7 @@
 
         <div>
             <section>
-                    <h2>Comparaciones</h2>
+                    <h2 id="comparaciones">Comparaciones</h2>
                     <h3>Tabla comparativa</h3>
                 <table>
                      <tr>
@@ -171,12 +175,22 @@
                 </section>
         </div>
         <hr>
-        <footer>
+        <footer class="footer">
+            <section id="footid">
+
+                <p>Lautaro Montero</p>
+
+
+            </section>
+           
+            
             <p>Contactos de cada uno de los emprendedores</p>
-            <span>Benjamin fuentes:</span> <a href="https://www.instagram.com/benja.fuentes_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
             
-            <span>Mateo campora:</span> <a href="https://www.instagram.com/mate.camporaa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">instagram</a>
-            
+            <section>
+                <span>Benjamin fuentes:</span>  <a id="a1" href="https://www.instagram.com/benja.fuentes_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+                <span>Mateo campora:</span>  <a id="a2" href="https://www.instagram.com/mate.camporaa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">instagram</a>
+
+            </section>   
         </footer>
     </main>
     </body>
